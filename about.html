@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="js/site.js"></script>
+    <style>
+
+        .menu {
+            background-color: #4e817c;
+            height: 110px;
+            width: 100%;
+        }
+
+        ul {
+            width: 100%;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            float: right;
+        }
+
+            ul li {
+                float: left;
+                margin-top: 1%;
+            }
+
+                ul li a {
+                    display: block;
+                    padding: 12px 16px;
+                    background-color: #4e817c;
+                    color: white;
+                    text-decoration: none;
+                }
+
+                    ul li a:hover {
+                        background-color: black;
+                        color: white;
+                    }
+
+        .menu2 {
+            width: 30%;
+            height: 60px;
+            background-color: #4e817c;
+            float: left;
+        }
+
+            .menu2 h3 {
+                margin-left: 3%;
+                margin-top: 1%;
+                color: white;
+            }
+
+        .menu3 {
+            width: 40%;
+            height: 60px;
+            background-color: #4e817c;
+            float: left;
+            margin-top: 2%;
+        }
+
+        .menu4 {
+            width: 30%;
+            height: 60px;
+            float: right;
+            background-color: #4e817c;
+            border-radius: 15px;
+            margin-top: 2%;
+        }
+
+        ol {
+            width: 100%;
+            height: 60px;
+            margin-top: 0px;
+            list-style-type: none;
+            float: right;
+            margin-right: 20%;
+        }
+
+            ol li {
+                margin-right: 5%;
+            }
+
+                ol li a,
+                ol li p {
+                    display: block;
+                    padding: 12px 16px;
+                    color: black;
+                    float: right;
+                    margin-top: 2%;
+                    text-decoration: none;
+                }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <div class="menu2">
+                <h3>
+                    <img src="img/Must Be Try.png" />
+                </h3>
+            </div>
+            <div class="menu3">
+                <ul>
+                    <li class="nav-item">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html">
+                            Hakkımızda
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog-home.html">
+                            Blog
+                        </a>
+                    </li>
+                    <li>
+                        <a href="blog-post.html">
+                            Blog Keşfet
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu4">
+                <ol>
+                    <li>
+                        <a href="giris.html" class="arama" onclick="showHide()">
+                            <i class="fa-solid fa-circle-user fa-xmark" style="font-size: 25px;"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <p>
+                            <i class="fa-solid fa-magnifying-glass" style="font-size: 25px;"></i>
+                        </p>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-5 bg-light" id="scroll-target">
+        <div class="container px-5 my-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6"><img class="img-fluid rounded mb-5 mb-lg-0" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." /></div>
+                <div class="col-lg-6">
+                    <h2 class="fw-bolder">Our founding</h2>
+                    <p class="lead fw-normal text-muted mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto est, ut esse a labore aliquam beatae expedita. Blanditiis impedit numquam libero molestiae et fugit cupiditate, quibusdam expedita, maiores eaque quisquam.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="container px-5 my-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6 order-first order-lg-last"><img class="img-fluid rounded mb-5 mb-lg-0" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." /></div>
+                <div class="col-lg-6">
+                    <h2 class="fw-bolder">Growth &amp; beyond</h2>
+                    <p class="lead fw-normal text-muted mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto est, ut esse a labore aliquam beatae expedita. Blanditiis impedit numquam libero molestiae et fugit cupiditate, quibusdam expedita, maiores eaque quisquam.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light">
+        <div class="container px-5 my-5">
+            <div class="text-center">
+                <h2 class="fw-bolder">Our team</h2>
+                <p class="lead fw-normal text-muted mb-5">Dedicated to quality and your success</p>
+            </div>
+            <div class="row gx-5 row-cols-1 row-cols-sm-2 row-cols-xl-4 justify-content-center">
+                <div class="col mb-5 mb-5 mb-xl-0">
+                    <div class="text-center">
+                        <img class="img-fluid rounded-circle mb-4 px-4" src="https://dummyimage.com/150x150/ced4da/6c757d" alt="..." />
+                        <h5 class="fw-bolder">Arden Vasek</h5>
+                        <div class="fst-italic text-muted">CFO</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-center text-dark">
+        <div class="container p-4 pb-0">
+            <section class="mb-4">
+                <a class="btn text-white btn-floating m-1 rounded-5"
+                   style="background-color: #70b9b0;"
+                   href="#!"
+                   role="button">
+                    <i class="fa-brands fa-discord"></i>
+                </a>
+
+                <a class="btn text-white btn-floating m-1 rounded-5"
+                   style="background-color: #70b9b0;"
+                   href="#!"
+                   role="button">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a class="btn text-white btn-floating m-1 rounded-5 "
+                   style="background-color: #70b9b0;"
+                   href="#!"
+                   role="button">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+
+                <a class="btn text-white btn-floating m-1 rounded-5"
+                   style="background-color: #70b9b0;"
+                   href="#!"
+                   role="button">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </section>
+        </div>
+        <div class="text-center p-3" style="color: gray;">
+            Copyright: © 2023 Must Be Try
+            <a style="color:#70b9b0;">Gülsüm Sertoğlu</a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js" asp-append-version="true"></script>
+</body>
+</html>

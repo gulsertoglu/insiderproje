@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="js/site.js"></script>
+    <style>
+
+        .menu {
+            background-color: #4e817c;
+            height: 110px;
+            width: 100%;
+        }
+
+        ul {
+            width: 100%;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            float: right;
+        }
+
+            ul li {
+                float: left;
+                margin-top: 1%;
+            }
+
+                ul li a {
+                    display: block;
+                    padding: 12px 16px;
+                    background-color: #4e817c;
+                    color: white;
+                    text-decoration: none;
+                }
+
+                    ul li a:hover {
+                        background-color: black;
+                        color: white;
+                    }
+
+        .menu2 {
+            width: 30%;
+            height: 60px;
+            background-color: #4e817c;
+            float: left;
+        }
+
+            .menu2 h3 {
+                margin-left: 3%;
+                margin-top: 1%;
+                color: white;
+            }
+
+        .menu3 {
+            width: 40%;
+            height: 60px;
+            background-color: #4e817c;
+            float: left;
+            margin-top: 2%;
+        }
+
+        .menu4 {
+            width: 30%;
+            height: 60px;
+            float: right;
+            background-color: #4e817c;
+            border-radius: 15px;
+            margin-top: 2%;
+        }
+
+        ol {
+            width: 100%;
+            height: 60px;
+            margin-top: 0px;
+            list-style-type: none;
+            float: right;
+            margin-right: 20%;
+        }
+
+            ol li {
+                margin-right: 5%;
+            }
+
+                ol li a,
+                ol li p {
+                    display: block;
+                    padding: 12px 16px;
+                    color: black;
+                    float: right;
+                    margin-top: 2%;
+                    text-decoration: none;
+                }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <div class="menu2">
+                <h3>
+                    <img src="img/Must Be Try.png" />
+                </h3>
+            </div>
+            <div class="menu3">
+                <ul>
+                    <li class="nav-item">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html">
+                            Hakkımızda
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog-home.html">
+                            Blog
+                        </a>
+                    </li>
+                    <li>
+                        <a href="blog-post.html">
+                            Blog Keşfet
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu4">
+                <ol>
+                    <li>
+                        <a href="giris.html" class="arama" onclick="showHide()">
+                            <i class="fa-solid fa-circle-user fa-xmark" style="font-size: 25px;"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <p>
+                            <i class="fa-solid fa-magnifying-glass" style="font-size: 25px;"></i>
+                        </p>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-5">
+        <div class="container px-5">
+            <h1 class="fw-bolder fs-5 mb-4">Blog 2</h1>
+            <div class="card border-0 shadow rounded-3 overflow-hidden">
+                <div class="card-body p-0">
+                    <div class="row gx-0">
+                        <div class="col-lg-6 col-xl-5 py-lg-5">
+                            <div class="p-4 p-md-5">
+                                <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
+                                <div class="h2 fw-bolder">Article heading goes here</div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique delectus ab doloremque, qui doloribus ea officiis...</p>
+                                <a class="stretched-link text-decoration-none" href="#!">
+                                    Read more
+                                    <i class="bi bi-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-xl-7"><div class="bg-featured-blog" style="background-image: url('https://dummyimage.com/700x350/343a40/6c757d')"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5 bg-light">
+        <div class="container px-5">
+            <div class="row gx-5">
+                <div class="col-xl-8">
+                    <h2 class="fw-bolder fs-5 mb-4">Yeni</h2>
+                    <!-- News item-->
+                    <div class="mb-4">
+                        <div class="small text-muted">Mayıs 12, 2023</div>
+                        <a class="link-dark" href="#!"><h3>s of the word in classical literature, discovered the undoubtable</h3></a>
+                    </div>
+                    <!-- News item-->
+                    <div class="mb-5">
+                        <div class="small text-muted">Nisan 5, 2023</div>
+                        <a class="link-dark" href="#!"><h3>s of the word in classical literature, discovered the undoubtable</h3></a>
+                    </div>
+                    <!-- News item-->
+                    <div class="mb-5">
+                        <div class="small text-muted">Eylül 21, 2023</div>
+                        <a class="link-dark" href="#!"><h3>s of the word in classical literature, discovered the undoubtable</h3></a>
+                    </div>
+                    <div class="text-end mb-5 mb-xl-0">
+                        <a class="text-decoration-none" href="#!">
+                            Yeni bloglar
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="card border-0 h-100">
+                        <div class="card-body p-4">
+                            <div class="d-flex h-100 align-items-center justify-content-center">
+                                <div class="text-center">
+                                    <div class="h6 fw-bolder">Haberleşme</div>
+                                    <p class="text-muted mb-4">
+                                        Görüş Ve öneriler için;
+                                        <br />
+                                        <a href="#!">ugulsumsertoglu@gmail.com</a>
+                                    </p>
+                                    <div class="h6 fw-bolder">Takip edin!</div>
+                                    <a class="fs-5 px-2 link-dark" href="#!"><i class="bi-twitter"></i></a>
+                                    <a class="fs-5 px-2 link-dark" href="#!"><i class="bi-linkedin"></i></a>
+                                    <a class="fs-5 px-2 link-dark" href="#!"><i class="bi-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog preview section-->
+    <section class="py-5">
+        <div class="container px-5">
+            <h2 class="fw-bolder fs-5 mb-4">Yen' bloglar</h2>
+            <div class="row gx-5">
+                <div class="col-lg-4 mb-5">
+                    <div class="card h-100 shadow border-0">
+                        <img class="card-img-top" src="https://dummyimage.com/600x350/ced4da/6c757d" alt="..." />
+                        <div class="card-body p-4">
+                            <div class="badge bg-primary bg-gradient rounded-pill mb-2">Yeni</div>
+                            <a class="text-decoration-none link-dark stretched-link" href="#!"><div class="h5 card-title mb-3">Blog 1</div></a>
+                            <p class="card-text mb-0">of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia</p>
+                        </div>
+                        <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                            <div class="d-flex align-items-end justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
+                                    <div class="small">
+                                        <div class="fw-bold">Kullanici 10</div>
+                                        <div class="text-muted">Haziran 9, 2023 &middot; 6 dakika önce</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-5">
+                    <div class="card h-100 shadow border-0">
+                        <img class="card-img-top" src="https://dummyimage.com/600x350/adb5bd/495057" alt="..." />
+                        <div class="card-body p-4">
+                            <div class="badge bg-primary bg-gradient rounded-pill mb-2">Yıldızlı</div>
+                            <a class="text-decoration-none link-dark stretched-link" href="#!"><div class="h5 card-title mb-3">Blog 5</div></a>
+                            <p class="card-text mb-0">of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia</p>
+                        </div>
+                        <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                            <div class="d-flex align-items-end justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
+                                    <div class="small">
+                                        <div class="fw-bold">Kullanıcı 5</div>
+                                        <div class="text-muted">Mart 23, 2023 &middot; 4 dakika önce</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-5">
+                    <div class="card h-100 shadow border-0">
+                        <img class="card-img-top" src="https://dummyimage.com/600x350/6c757d/343a40" alt="..." />
+                        <div class="card-body p-4">
+                            <div class="badge bg-primary bg-gradient rounded-pill mb-2">Yeni</div>
+                            <a class="text-decoration-none link-dark stretched-link" href="#!"><div class="h5 card-title mb-3">Blog 3</div></a>
+                            <p class="card-text mb-0">of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia</p>
+                        </div>
+                        <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                            <div class="d-flex align-items-end justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
+                                    <div class="small">
+                                        <div class="fw-bold">Kullanıcı 3</div>
+                                        <div class="text-muted">Ocak 2, 2023 &middot; 10 dakika önce</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-end mb-5 mb-xl-0">
+                <a class="text-decoration-none" href="#!">
+                    More stories
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-center text-dark">
+        <div class="container p-4 pb-0">
+            <section class="mb-4">
+                <a class="btn text-white btn-floating m-1 rounded-5"
+                   style="background-color: #70b9b0;"
+                   href="#!"
+                   role="button">
+                    <i class="fa-brands fa-discord"></i>
+                </a>
+
+                <a class="btn text-white btn-floating m-1 rounded-5"
+                   style="background-color: #70b9b0;"
+                   href="#!"
+                   role="button">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a class="btn text-white btn-floating m-1 rounded-5 "
+                   style="background-color: #70b9b0;"
+                   href="#!"
+                   role="button">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+
+                <a class="btn text-white btn-floating m-1 rounded-5"
+                   style="background-color: #70b9b0;"
+                   href="#!"
+                   role="button">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </section>
+        </div>
+        <div class="text-center p-3" style="color: gray;">
+            Copyright: © 2023 Must Be Try
+            <a style="color:#70b9b0;">Gülsüm Sertoğlu</a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js" asp-append-version="true"></script>
+</body>
+</html>

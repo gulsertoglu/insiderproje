@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="js/site.js"></script>
+    <style>
+
+        .menu {
+            background-color: #4e817c;
+            height: 110px;
+            width: 100%;
+        }
+
+        ul {
+            width: 100%;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            float: right;
+        }
+
+            ul li {
+                float: left;
+                margin-top: 1%;
+            }
+
+                ul li a {
+                    display: block;
+                    padding: 12px 16px;
+                    background-color: #4e817c;
+                    color: white;
+                    text-decoration: none;
+                }
+
+                    ul li a:hover {
+                        background-color: black;
+                        color: white;
+                    }
+
+        .menu2 {
+            width: 30%;
+            height: 60px;
+            background-color: #4e817c;
+            float: left;
+        }
+
+            .menu2 h3 {
+                margin-left: 3%;
+                margin-top: 1%;
+                color: white;
+            }
+
+        .menu3 {
+            width: 40%;
+            height: 60px;
+            background-color: #4e817c;
+            float: left;
+            margin-top: 2%;
+        }
+
+        .menu4 {
+            width: 30%;
+            height: 60px;
+            float: right;
+            background-color: #4e817c;
+            border-radius: 15px;
+            margin-top: 2%;
+        }
+
+        ol {
+            width: 100%;
+            height: 60px;
+            margin-top: 0px;
+            list-style-type: none;
+            float: right;
+            margin-right: 20%;
+        }
+
+            ol li {
+                margin-right: 5%;
+            }
+
+                ol li a,
+                ol li p {
+                    display: block;
+                    padding: 12px 16px;
+                    color: black;
+                    float: right;
+                    margin-top: 2%;
+                    text-decoration: none;
+                }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <div class="menu2">
+                <h3>
+                    <img src="img/Must Be Try.png" />
+                </h3>
+            </div>
+            <div class="menu3">
+                <ul>
+                    <li class="nav-item">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html">
+                            Hakkımızda
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog-home.html">
+                            Blog
+                        </a>
+                    </li>
+                    <li>
+                        <a href="blog-post.html">
+                            Blog Keşfet
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu4">
+                <ol>
+                    <li>
+                        <a href="giris.html" class="arama" onclick="showHide()">
+                            <i class="fa-solid fa-circle-user fa-xmark" style="font-size: 25px;"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <p>
+                            <i class="fa-solid fa-magnifying-glass" style="font-size: 25px;"></i>
+                        </p>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-5">
+        <div class="container px-5 my-5">
+            <div class="row gx-5">
+                <div class="col-lg-3">
+                    <div class="d-flex align-items-center mt-lg-5 mb-4">
+                        <img class="img-fluid rounded-circle" src="https://dummyimage.com/50x50/ced4da/6c757d.jpg" alt="..." />
+                        <div class="ms-3">
+                            <div class="fw-bold">1. Kullanıcı</div>
+                            <div class="text-muted">Profesyonel Hesap</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <!-- Post content-->
+                    <article>
+                        <!-- Post header-->
+                        <header class="mb-4">
+                            <!-- Post title-->
+                            <h1 class="fw-bolder mb-1">Üniversite ve Bölümler</h1>
+                            <!-- Post meta content-->
+                            <div class="text-muted fst-italic mb-2">Haziran 1, 2023</div>
+                            <!-- Post categories-->
+                            <a class="badge bg-secondary text-decoration-none link-light" href="#!">University</a>
+                            <a class="badge bg-secondary text-decoration-none link-light" href="#!">Study</a>
+                        </header>
+                        <!-- Preview image figure-->
+                        <figure class="mb-4"><img class="img-fluid rounded" src="img/MyIC_Article_110203.webp" alt="..." /></figure>
+                        <!-- Post content-->
+                        <section class="mb-5">
+                            <p class="fs-5 mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                            <p class="fs-5 mb-4">If you get asteroids about a kilometer in size, those are large enough and carry enough energy into our system to disrupt transportation, communication, the food chains, and that can be a really bad day on Earth.</p>
+                            <h2 class="fw-bolder mb-4 mt-5">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </h2>
+                            <p class="fs-5 mb-4">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                            <p class="fs-5 mb-4"> Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        </section>
+                    </article>
+                    <!-- Comments section-->
+                    <section>
+                        <div class="card bg-light">
+                            <div class="card-body">
+                                <!-- Comment form-->
+                                <form class="mb-4"><textarea class="form-control" rows="3" placeholder="Yazı hakkında düşüncelerini belirtmek ister misin?"></textarea></form>
+                                <!-- Comment with nested comments-->
+                                <div class="d-flex mb-4">
+                                    <!-- Parent comment-->
+                                    <div class="flex-shrink-0"><img class="rounded-circle" src="https://dummyimage.com/50x50/ced4da/6c757d.jpg" alt="..." /></div>
+                                    <div class="ms-3">
+                                        <div class="fw-bold">Yorum 1</div>
+                                        If you're going to lead a space frontier, it has to be government; it'll never be private enterprise. Because the space frontier is dangerous, and it's expensive, and it has unquantified risks.
+                                        <!-- Child comment 1-->
+                                        <div class="d-flex mt-4">
+                                            <div class="flex-shrink-0"><img class="rounded-circle" src="https://dummyimage.com/50x50/ced4da/6c757d.jpg" alt="..." /></div>
+                                            <div class="ms-3">
+                                                <div class="fw-bold">Yorum 2</div>
+                                                And under those conditions, you cannot establish a capital-market evaluation of that enterprise. You can't get investors.
+                                            </div>
+                                        </div>
+                                        <!-- Child comment 2-->
+                                        <div class="d-flex mt-4">
+                                            <div class="flex-shrink-0"><img class="rounded-circle" src="https://dummyimage.com/50x50/ced4da/6c757d.jpg" alt="..." /></div>
+                                            <div class="ms-3">
+                                                <div class="fw-bold">Yorum 3</div>
+                                                When you put money directly to a problem, it makes a good headline.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Single comment-->
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0"><img class="rounded-circle" src="https://dummyimage.com/50x50/ced4da/6c757d.jpg" alt="..." /></div>
+                                    <div class="ms-3">
+                                        <div class="fw-bold">Yorum 4</div>
+                                        When I look at the universe and all the ways the universe wants to kill us, I find it hard to reconcile that with statements of beneficence.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-center text-dark">
+        <div class="container p-4 pb-0">
+            <section class="mb-4">
+                <a class="btn text-white btn-floating m-1 rounded-5"
+                   style="background-color: #70b9b0;"
+                   href="#!"
+                   role="button">
+                    <i class="fa-brands fa-discord"></i>
+                </a>
+
+                <a class="btn text-white btn-floating m-1 rounded-5"
+                   style="background-color: #70b9b0;"
+                   href="#!"
+                   role="button">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a class="btn text-white btn-floating m-1 rounded-5 "
+                   style="background-color: #70b9b0;"
+                   href="#!"
+                   role="button">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+
+                <a class="btn text-white btn-floating m-1 rounded-5"
+                   style="background-color: #70b9b0;"
+                   href="#!"
+                   role="button">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </section>
+        </div>
+        <div class="text-center p-3" style="color: gray;">
+            Copyright: © 2023 Must Be Try
+            <a style="color:#70b9b0;">Gülsüm Sertoğlu</a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js" asp-append-version="true"></script>
+</body>
+</html>
