@@ -2,100 +2,12 @@
 <html>
 
 <head>
-    <meta charset="utf-8" />
-    <title>giris</title>
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-    <link href="css/styles.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="utf-8">
+    <title>Giriş Yap</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
-        .menu {
-            background-color: #4e817c;
-            height: 110px;
-            width: 100%;
-        }
-
-        ul {
-            width: 100%;
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            float: right;
-        }
-
-        ul li {
-            float: left;
-            margin-top: 1%;
-        }
-
-        ul li a {
-            display: block;
-            padding: 12px 16px;
-            background-color: #4e817c;
-            color: white;
-            text-decoration: none;
-        }
-
-        ul li a:hover {
-            background-color: black;
-            color: white;
-        }
-
-        .menu2 {
-            width: 30%;
-            height: 60px;
-            background-color: #4e817c;
-            float: left;
-        }
-
-        .menu2 h3 {
-            margin-left: 3%;
-            margin-top: 1%;
-            color: white;
-        }
-
-        .menu3 {
-            width: 40%;
-            height: 60px;
-            background-color: #4e817c;
-            float: left;
-            margin-top: 2%;
-        }
-
-        .menu4 {
-            width: 30%;
-            height: 60px;
-            float: right;
-            background-color: #4e817c;
-            border-radius: 15px;
-            margin-top: 2%;
-        }
-
-        ol {
-            width: 100%;
-            height: 60px;
-            margin-top: 0px;
-            list-style-type: none;
-            float: right;
-            margin-right: 20%;
-        }
-
-        ol li {
-            margin-right: 5%;
-        }
-
-        ol li a,
-        ol li p {
-            display: block;
-            padding: 12px 16px;
-            color: black;
-            float: right;
-            margin-top: 2%;
-            text-decoration: none;
-        }
+        @import url('https;//fonts.googleapis.com/css?family=Josefin+Sans');
 
         * {
             margin: 0;
@@ -190,10 +102,97 @@
         ::-webkit-input-placeholder {
             color: #848484;
         }
+
+        .menu {
+            background-color: #4e817c;
+            height: 110px;
+            width: 100%;
+        }
+
+        ul {
+            width: 100%;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            float: right;
+        }
+
+        ul li {
+            float: left;
+            margin-top: 1%;
+        }
+
+        ul li a {
+            display: block;
+            padding: 12px 16px;
+            background-color: #4e817c;
+            color: white;
+            text-decoration: none;
+        }
+
+        ul li a:hover {
+            background-color: black;
+            color: white;
+        }
+
+        .menu2 {
+            width: 30%;
+            height: 60px;
+            background-color: #4e817c;
+            float: left;
+        }
+
+        .menu2 h3 {
+            margin-left: 3%;
+            margin-top: 1%;
+            color: white;
+        }
+
+        .menu3 {
+            width: 40%;
+            height: 60px;
+            background-color: #4e817c;
+            float: left;
+            margin-top: 2%;
+        }
+
+        .menu4 {
+            width: 30%;
+            height: 60px;
+            float: right;
+            background-color: #4e817c;
+            border-radius: 15px;
+            margin-top: 2%;
+        }
+
+        ol {
+            width: 100%;
+            height: 60px;
+            margin-top: 0px;
+            list-style-type: none;
+            float: right;
+            margin-right: 20%;
+        }
+
+        ol li {
+            margin-right: 5%;
+        }
+
+        ol li a,
+        ol li p {
+            display: block;
+            padding: 12px 16px;
+            color: black;
+            float: right;
+            margin-top: 2%;
+            text-decoration: none;
+        }
     </style>
 </head>
 
 <body>
+
     <header>
         <div class="menu">
             <div class="menu2">
@@ -241,7 +240,7 @@
     </header>
 
     <div class="wrapper">
-        <div class="title">Giriş Yap
+        <div class="title">Kayıt ol
         </div>
         <div class="social_media">
             <div class="item">
@@ -262,18 +261,21 @@
                 <i class="fas fa-user"></i>
             </div>
             <div class="input_field">
+                <input type="text" placeholder="Email" class="input">
+                <i class="far fa-envelope"></i>
+            </div>
+            <div class="input_field">
                 <input type="Password" placeholder="Password" class="input">
                 <i class="fas fa-lock"></i>
             </div>
             <div class="btn">
-                <a href="#">Giriş Yap</a>
+                <a href="#">Kayıt Ol</a>
             </div>
-            <p style="color: gray; padding-top: 6%;">Üye Değil misin? <a href="kayit.html" style="color: #3aaf9f;">Kayıt ol</a> </p>
+            <p style="color: gray; padding-top: 6%;">Üye misin? <a href="giris.html" style="color: #3aaf9f;">Giriş Yap</a> </p>
         </div>
     </div>
 
     
-    <script src="js/scripts.js"></script>
+<script src="js/scripts.js"></script>
 </body>
-
 </html>
